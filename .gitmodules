@@ -1,5 +1,5 @@
 [submodule "bundle/vundle"]
-	path = bundle/vundle
+	path = bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
