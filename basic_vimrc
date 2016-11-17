@@ -70,11 +70,12 @@ nnoremap <C-N> :bn<CR>
 nnoremap <C-P> :bp<CR>
 
 " NERDTree 自动启动
-" autocmd vimenter * NERDTree
-let NERDTreeWinSize=25
+autocmd vimenter * NERDTree
+let NERDTreeWinSize=35
 
 " TagBar
 nmap <F8> :TagbarToggle<CR>
+nmap <F2> :NERDTreeToggle<CR>
 let g:tagbar_width = 25
 
 " syntastic
