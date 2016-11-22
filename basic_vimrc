@@ -72,6 +72,12 @@ nnoremap <C-P> :bp<CR>
 " NERDTree 自动启动
 autocmd vimenter * NERDTree
 let NERDTreeWinSize=35
+" CtrlSF搜索功能配置
+" let g:ctrlsf_ackprg = 'ag'
+nmap <C-F> <Plug>CtrlSFPrompt
+let g:ackprg='ag --nogroup --nocolor --nocolumn'
+" 打开搜索结果界面位置
+let g:ctrlsf_position = "right"
 
 " TagBar
 nmap <F8> :TagbarToggle<CR>
